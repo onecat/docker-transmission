@@ -4,4 +4,4 @@ docker run -d  --name transmission \
 -e "PASSWORD=watsons" \
 -v /data/downloads:/transmission/downloads \
 -v /data/downloads/incomplete:/transmission/incomplete \
-imcat/alpine-transmission
+imcat/docker-transmission
