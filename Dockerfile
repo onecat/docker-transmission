@@ -18,8 +18,6 @@ RUN mkdir -p /transmission/downloads \
   && mkdir -p /transmission/incomplete \
   && mkdir -p /etc/transmission-daemon
 
-COPY src/ .
-
 VOLUME ["/etc/transmission-daemon"]
 VOLUME ["/transmission/downloads"]
 VOLUME ["/transmission/incomplete"]
