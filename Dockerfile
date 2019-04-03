@@ -29,4 +29,4 @@ ENV PASSWORD password
 
 #RUN chmod +x /start-transmission.sh
 #CMD ["/start-transmission.sh"]
-/usr/bin/transmission-daemon --foreground --config-dir /etc/transmission-daemon
+RUN /usr/bin/transmission-daemon --foreground --config-dir /etc/transmission-daemon
